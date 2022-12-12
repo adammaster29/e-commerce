@@ -9,9 +9,6 @@ body {
   color: white;
 }
 
-img {
-  max-width: 100%;
-}
 
 .spinner-overlay {
   background-color: rgba(0, 0, 3, 0.452);
@@ -119,6 +116,7 @@ img {
 
 /*home*/
 .img-product-home{
+  width: 200px;
   height: 150px;
   margin-bottom: 2rem;
   object-fit: cover;
@@ -243,8 +241,9 @@ li {
   height: 500px;
   align-items: center;
 }
-.img-product{margin-right: 5rem;
-width: 200px;}
+.img-product{margin-right: 2rem;
+width: 150px;
+height: 200px;}
 .products--details {
   width: 400px;
   height: auto;

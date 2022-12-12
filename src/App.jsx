@@ -9,6 +9,7 @@ import NavBarw from "./components/NavBarw";
 import LoadinScreen from "./components/LoadinScreen";
 import { useSelector } from "react-redux";
 import ProtectedRoutes from "./components/ProtectedRoutes";
+import 'bootswatch/dist/Quartz/bootstrap.min.css';
 function App() {
   const isloading = useSelector((state) => state.isloading);
 
