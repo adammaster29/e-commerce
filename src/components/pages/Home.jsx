@@ -69,13 +69,13 @@ const Home = () => {
       <div className="container--product-home three">
         {newProducts.map((product) => (
           <ul className="container--product" key={product.id}>
-              <div className="container--img-price"> <Link to={`/Products/${product.id}`}>
+              <div className="container--img-price"> <Link className="link" to={`/Products/${product.id}`}>
                  <img
                 className="img-product-home"
                 src={product.productImgs[0]}
                 alt=""
               />{" "}</Link>
-              <Link to={`/Products/${product.id}`}> <li> {product.title}</li> </Link>
+              <Link className="link" to={`/Products/${product.id}`}> <li> {product.title}</li> </Link>
               <div className="price--and-cart">
                 {" "}
                 <li> Price: {product.price}</li>{" "}

@@ -9,6 +9,11 @@ body {
   color: white;
 }
 
+.Link{
+  list-style: none;
+text-decoration: none;
+
+}
 
 .spinner-overlay {
   background-color: rgba(0, 0, 3, 0.452);
