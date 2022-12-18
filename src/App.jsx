@@ -1,4 +1,4 @@
-import 'bootswatch/dist/Darkly/bootstrap.min.css'; // Added this :boom:
+//import 'bootswatch/dist/Darkly/bootstrap.min.css'; // Added this :boom:
 import "./App.css";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
