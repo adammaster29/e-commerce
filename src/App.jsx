@@ -1,4 +1,4 @@
-
+import 'bootswatch/dist/Darkly/bootstrap.min.css'; // Added this :boom:
 import "./App.css";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
@@ -9,7 +9,7 @@ import NavBarw from "./components/NavBarw";
 import LoadinScreen from "./components/LoadinScreen";
 import { useSelector } from "react-redux";
 import ProtectedRoutes from "./components/ProtectedRoutes";
-import 'bootswatch/dist/slate/bootstrap.min.css'; // Added this :boom:
+
 function App() {
   const isloading = useSelector((state) => state.isloading);
 
